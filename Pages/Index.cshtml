@@ -1,0 +1,15 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <h2> <code>@Model.getWeddingDate()</code></h2>
+    <p>CountDown <code>@Model.countDown()</code></p>
+    <div>
+        <!-- <img src= "@Url.Content(Model.getImage())" alt="Image" class="center" /> -->
+    </div>
+
+</div>
