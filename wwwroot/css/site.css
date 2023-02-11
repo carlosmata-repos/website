@@ -22,9 +22,15 @@ body {
 }
 
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  height: 50%
+  border: 5px;
+  text-align: center;
+}
+
+.bodyT {
+  background-image: url("../images/AnteaCarlos.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
 }

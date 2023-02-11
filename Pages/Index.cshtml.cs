@@ -30,9 +30,9 @@ public class IndexModel : PageModel
         _logger = logger;
     }
     public void Configure(IApplicationBuilder app, Microsoft.Extensions.Hosting.IHostEnvironment env, ILoggerFactory loggerFactory)
-{
-    app.UseStaticFiles();
-}
+    {
+        app.UseStaticFiles();
+    }
 
     public void OnGet()
     {

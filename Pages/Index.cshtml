@@ -4,12 +4,30 @@
     ViewData["Title"] = "Home page";
 }
 
+<div class="bodyT">
+    <div class="center">
+        <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">
+            <img src="~/images/flags/ENG.png" alt="ENGbutton" width=5% height=5% />
+            English
+        </a>
+        <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">
+            <img src="~/images/flags/CR.png" alt="CRbutton" width=5% height=5%  />
+            Español
+        </a>
+        <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">
+            <img src="~/images/flags/IT.png" alt="ITbutton" width=5% height=5% />
+            Italiano
+        </a>
+    </div>
+</div>
+<!--
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <h2> <code>@Model.getWeddingDate()</code></h2>
     <p>CountDown <code>@Model.countDown()</code></p>
     <div>
-        <!-- <img src= "@Url.Content(Model.getImage())" alt="Image" class="center" /> -->
+        <img src= "@Url.Content(Model.getImage())" alt="Image" class="center"/>
     </div>
 
 </div>
+-->
