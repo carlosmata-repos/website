@@ -29,7 +29,7 @@ body {
 .bodyT {
   background-image: url("../images/AnteaCarlos.jpeg");
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-position: center;
   height: 100vh;
   width: 100%;

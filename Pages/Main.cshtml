@@ -1,0 +1,9 @@
+@page "{language?}"
+@model MainModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<h1>@ViewData["Title"]</h1>
+hola
+<code>@Model.getLanguage()</code></p>
